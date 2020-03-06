@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "GroceriesDatasource": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "GroceriesDB",
+    "password": "",
+    "name": "GroceriesDatasource",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
