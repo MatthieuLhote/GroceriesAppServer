@@ -38,6 +38,11 @@
       "type": "hasOne",
       "model": "Address",
       "foreignKey": ""
+    },
+    "products": {
+      "type": "hasOne",
+      "model": "Product",
+      "foreignKey": ""
     }
   },
   "acls": [],

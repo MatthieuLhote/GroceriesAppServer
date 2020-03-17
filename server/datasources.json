@@ -13,5 +13,14 @@
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
+  },
+  "local-storage": {
+    "name": "local-storage",
+    "connector": "loopback-component-storage-gridfs",
+    "host":"localhost",
+    "port":27017,
+    "database":"GroceriesDB",
+    "username":"",
+    "password":""
   }
 }

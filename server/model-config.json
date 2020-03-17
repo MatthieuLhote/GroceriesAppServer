@@ -42,5 +42,21 @@
   "Address": {
     "dataSource": "GroceriesDatasource",
     "public": true
+  },
+  "Product": {
+    "dataSource": "GroceriesDatasource",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "GroceriesDatasource",
+    "public": true
+  },
+  "DeliveryType": {
+    "dataSource": "GroceriesDatasource",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "local-storage",
+    "public": true
   }
 }

@@ -1,0 +1,32 @@
+{
+  "name": "Category",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "pictures": {
+      "type": "string",
+      "required": false
+    },
+    "order": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "products": {
+      "type": "hasOne",
+      "model": "Product",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
