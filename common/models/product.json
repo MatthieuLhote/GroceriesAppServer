@@ -30,7 +30,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "utilisateur": {
+      "type": "belongsTo",
+      "model": "person",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

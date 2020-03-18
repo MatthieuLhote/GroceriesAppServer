@@ -40,7 +40,7 @@
       "foreignKey": ""
     },
     "products": {
-      "type": "hasOne",
+      "type": "hasMany",
       "model": "Product",
       "foreignKey": ""
     }
